@@ -18,9 +18,9 @@ spec:
         value: "-Pnative -Dmaven.test.skip=true --no-transfer-progress package"
   params:
     - name: clusterBuilder
-      value: full-jammy
+      value: default
   source:
     git:
-      url: <https URL for your generated project's Git repository>
+      url: https://github.com/trisberg/spring-cloud-serverless
       ref:
         branch: main
